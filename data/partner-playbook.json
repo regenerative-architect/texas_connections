@@ -1,0 +1,314 @@
+{
+  "schema": "txco-partner-playbook",
+  "version": 1,
+  "asOf": "2026-09-28",
+  "principles": [
+    "Assign a real owner to every dependency; a logo on a partner list is not implementation.",
+    "Separate public evidence, organizational work product and private household/person-level data.",
+    "Share the minimum data necessary for the task. Do not place secrets, credentials, protected records or sensitive household data in open peer rooms.",
+    "Use common lifecycle states: observed → validated → designed → funded → building → operational → adopted → verified.",
+    "Measure infrastructure outputs separately from service use and downstream outcomes."
+  ],
+  "sectors": [
+    {
+      "id": "family",
+      "name": "Families & households",
+      "icon": "🏠",
+      "mission": "Define lived barriers, affordability, reliability, accessibility and service-use requirements without surrendering unnecessary personal data.",
+      "canContribute": [
+        "service-ordering observations",
+        "affordability constraints",
+        "device/accessibility needs",
+        "speed/reliability observations",
+        "priority use cases"
+      ],
+      "needsFromOthers": [
+        "plain-language options",
+        "verified eligibility",
+        "privacy-safe support",
+        "clear escalation paths"
+      ],
+      "typicalHandoffs": [
+        "availability discrepancy → mapper/ISP/FCC challenge",
+        "device/skills gap → library/navigator",
+        "telehealth barrier → clinic/connectivity team"
+      ]
+    },
+    {
+      "id": "local-government",
+      "name": "Local & county government",
+      "icon": "🏛️",
+      "mission": "Convene, align rights-of-way/public assets, document public process, coordinate funding and publish accountable project status.",
+      "canContribute": [
+        "local plans",
+        "permitting/ROW context",
+        "public facilities",
+        "grant coordination",
+        "emergency planning"
+      ],
+      "needsFromOthers": [
+        "provider engineering",
+        "community evidence",
+        "institution requirements",
+        "legal/procurement review"
+      ],
+      "typicalHandoffs": [
+        "validated gap → project scoping",
+        "public asset → engineering review",
+        "funding lead → grant-readiness packet"
+      ]
+    },
+    {
+      "id": "state-public",
+      "name": "State agencies & public institutions",
+      "icon": "★",
+      "mission": "Provide program rules, authoritative datasets, grants, procurement pathways and sector-specific standards.",
+      "canContribute": [
+        "official data",
+        "program guidance",
+        "funding rules",
+        "technical assistance",
+        "statewide coordination"
+      ],
+      "needsFromOthers": [
+        "accurate local evidence",
+        "compliant applications",
+        "implementation reporting"
+      ],
+      "typicalHandoffs": [
+        "program rule → applicant checklist",
+        "state dataset → local validation",
+        "award → implementation monitoring"
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Schools, colleges & educational bodies",
+      "icon": "🎓",
+      "mission": "Translate connectivity into learning, administration, safety and workforce requirements while protecting student data.",
+      "canContribute": [
+        "E-Rate planning",
+        "campus network requirements",
+        "digital learning needs",
+        "facilities",
+        "training pathways"
+      ],
+      "needsFromOthers": [
+        "last/middle-mile capacity",
+        "affordable service",
+        "cybersecurity",
+        "family access support"
+      ],
+      "typicalHandoffs": [
+        "campus gap → E-Rate/network plan",
+        "student access barrier → navigator/library",
+        "fiber workforce need → college/employer pathway"
+      ]
+    },
+    {
+      "id": "libraries",
+      "name": "Libraries & community hubs",
+      "icon": "📚",
+      "mission": "Provide trusted public access, devices, digital navigation, learning/work/telehealth spaces and local evidence.",
+      "canContribute": [
+        "public Wi-Fi",
+        "device lending",
+        "digital skills",
+        "private rooms",
+        "community observations"
+      ],
+      "needsFromOthers": [
+        "adequate backhaul",
+        "facility investment",
+        "staff training",
+        "referral partners"
+      ],
+      "typicalHandoffs": [
+        "patron barrier → navigator/service provider",
+        "telehealth room → clinic workflow",
+        "job seeker → workforce partner"
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Health systems & clinics",
+      "icon": "🩺",
+      "mission": "Define telecommunications requirements for telehealth and operations while separating connectivity readiness from clinical appropriateness.",
+      "canContribute": [
+        "workflow requirements",
+        "privacy constraints",
+        "telehealth demand",
+        "rural-site needs"
+      ],
+      "needsFromOthers": [
+        "reliable upload/latency",
+        "private accessible spaces",
+        "backup communications"
+      ],
+      "typicalHandoffs": [
+        "telehealth quality issue → network diagnostic",
+        "rural facility upgrade → funding/program review",
+        "outage → continuity plan"
+      ]
+    },
+    {
+      "id": "corporation",
+      "name": "Corporations, ISPs & infrastructure firms",
+      "icon": "🏢",
+      "mission": "Design, build, operate and maintain networks with transparent performance, lifecycle and affordability commitments where applicable.",
+      "canContribute": [
+        "engineering",
+        "capital",
+        "construction",
+        "operations",
+        "service plans",
+        "workforce placements"
+      ],
+      "needsFromOthers": [
+        "accurate demand/geography",
+        "ROW/permitting",
+        "workforce",
+        "community requirements"
+      ],
+      "typicalHandoffs": [
+        "validated service area → design",
+        "design → permitting/utility coordination",
+        "activation → adoption/support"
+      ]
+    },
+    {
+      "id": "business",
+      "name": "Small businesses & employers",
+      "icon": "🏪",
+      "mission": "Define commercial reliability, upload, payment, security, continuity and workforce requirements.",
+      "canContribute": [
+        "demand evidence",
+        "work-based learning",
+        "local jobs",
+        "shared facilities"
+      ],
+      "needsFromOthers": [
+        "reliable service",
+        "skills pipeline",
+        "continuity planning"
+      ],
+      "typicalHandoffs": [
+        "business gap → infrastructure planner",
+        "skills gap → college/workforce board",
+        "outage risk → resilience team"
+      ]
+    },
+    {
+      "id": "workforce",
+      "name": "Workforce boards & training providers",
+      "icon": "🧰",
+      "mission": "Connect infrastructure investment to training, credentials, apprenticeships and employment pathways.",
+      "canContribute": [
+        "training inventory",
+        "candidate recruitment",
+        "supportive services",
+        "employer matching"
+      ],
+      "needsFromOthers": [
+        "forecast labor demand",
+        "equipment/labs",
+        "employer placements"
+      ],
+      "typicalHandoffs": [
+        "project pipeline → training cohort",
+        "learner → employer",
+        "skills shortage → curriculum update"
+      ]
+    },
+    {
+      "id": "utility",
+      "name": "Utilities & critical infrastructure",
+      "icon": "⚡",
+      "mission": "Coordinate poles, power, water/telemetry, restoration, backup power and shared infrastructure dependencies.",
+      "canContribute": [
+        "asset data",
+        "restoration procedures",
+        "pole/power coordination",
+        "critical-site requirements"
+      ],
+      "needsFromOthers": [
+        "network dependencies",
+        "construction schedules",
+        "security boundaries"
+      ],
+      "typicalHandoffs": [
+        "pole constraint → replacement program",
+        "grid outage → network fallback",
+        "shared trench/route → engineering coordination"
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency management & public safety",
+      "icon": "🚨",
+      "mission": "Define resilient warning, dispatch, backup communications and community-hub requirements.",
+      "canContribute": [
+        "continuity requirements",
+        "exercise findings",
+        "critical-site priorities",
+        "public-warning workflows"
+      ],
+      "needsFromOthers": [
+        "independent fallback paths",
+        "backup power",
+        "offline procedures"
+      ],
+      "typicalHandoffs": [
+        "exercise failure → mitigation task",
+        "tower/fiber dependency → utility/ISP",
+        "public shelter → hub connectivity"
+      ]
+    },
+    {
+      "id": "nonprofit",
+      "name": "Nonprofits & community organizations",
+      "icon": "🤝",
+      "mission": "Bridge trust, outreach, adoption, affordability, device and skills gaps for populations that infrastructure programs may not reach by themselves.",
+      "canContribute": [
+        "outreach",
+        "navigation",
+        "devices",
+        "training",
+        "local qualitative evidence"
+      ],
+      "needsFromOthers": [
+        "verified program data",
+        "referral capacity",
+        "sustainable funding"
+      ],
+      "typicalHandoffs": [
+        "household barrier → service pathway",
+        "community pattern → planner",
+        "training need → library/workforce"
+      ]
+    },
+    {
+      "id": "research",
+      "name": "Researchers & data teams",
+      "icon": "🔬",
+      "mission": "Make evidence reproducible, dated and uncertainty-aware; prevent category errors between coverage, performance, adoption and outcomes.",
+      "canContribute": [
+        "methods",
+        "evaluation",
+        "data integration",
+        "uncertainty analysis",
+        "provenance"
+      ],
+      "needsFromOthers": [
+        "documented source lineage",
+        "definitions",
+        "local context"
+      ],
+      "typicalHandoffs": [
+        "claim → evidence audit",
+        "pilot → evaluation plan",
+        "map → sampling/validation design"
+      ]
+    }
+  ]
+}

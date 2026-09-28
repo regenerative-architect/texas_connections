@@ -1,0 +1,337 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://planetaryrestorationarchive.example/schemas/tx-connectivity-backup-v4.schema.json",
+  "title": "Texas Connectivity & Opportunity OS backup v4",
+  "type": "object",
+  "required": [
+    "schema",
+    "version",
+    "stores"
+  ],
+  "properties": {
+    "schema": {
+      "const": "tx-connectivity-opportunity-os"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4
+    },
+    "exportedAt": {
+      "type": "string"
+    },
+    "stores": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "profiles": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "speedTests": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "outages": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "devices": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "projects": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "tasks": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "decisions": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "comments": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "activity": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "outbox": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "settings": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "scenarios": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "resources": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "members": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "handoffs": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "organizations": {
+          "type": "array",
+          "maxItems": 50000,
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "additionalProperties": true
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

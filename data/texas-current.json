@@ -1,0 +1,440 @@
+{
+  "asOf": "2026-09-28",
+  "evidenceScale": {
+    "A": "Official measured/administrative data",
+    "B": "Peer-reviewed evidence",
+    "C": "Institutional analysis/guidance",
+    "D": "Preliminary or incomplete evidence",
+    "E": "Modeled scenario",
+    "F": "Conceptual proposal"
+  },
+  "facts": [
+    {
+      "id": "workforce",
+      "title": "Building the Texas Broadband Workforce Grant Program",
+      "value": "$24.6M; seven grantees; projected 2,800 Texans trained in fiber installation, maintenance and repair.",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Broadband Development Office",
+      "jurisdiction": "Texas",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/workforce/",
+      "note": "Programs include tuition-free industry-aligned training and work-based learning. Availability and enrollment are provider-specific; use current grantee pages for participant access."
+    },
+    {
+      "id": "tx-map",
+      "title": "Texas broadband mapping layer",
+      "value": "BDO provides Texas broadband/BEAD map resources and says BEAD project maps will be updated as deployment progresses.",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Broadband Development Office",
+      "jurisdiction": "Texas",
+      "url": "https://comptroller.texas.gov/programs/broadband/outreach/maps/",
+      "note": "Some underlying location data are restricted by FCC licensing. Use official map interfaces and permitted exports rather than redistributing restricted fabric data."
+    },
+    {
+      "id": "training",
+      "title": "Texas State Training Inventory",
+      "value": "TWC inventory supports searching education and workforce training providers/programs by region, ZIP and field of study",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Recent",
+      "publisher": "Texas Workforce Commission",
+      "jurisdiction": "Texas workforce",
+      "url": "https://lmi.twc.texas.gov/apps/sti/",
+      "note": "Useful for connecting broadband workforce or digital-skills plans to actual training supply."
+    },
+    {
+      "id": "tap",
+      "title": "Technical Assistance Program county broadband planning",
+      "value": "32 Texas counties were accepted for no-cost broadband planning and consulting assistance; the BDO page identifies plans as complete or finalizing by county.",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Broadband Development Office",
+      "jurisdiction": "Texas",
+      "url": "https://comptroller.texas.gov/programs/broadband/tap/",
+      "note": "County plans provide localized planning inputs. They should be combined with current FCC/BDO availability and local evidence before project selection."
+    },
+    {
+      "id": "smallbiz",
+      "title": "Texas Small Business Resource Portal",
+      "value": "State portal produces customized resource lists for starting or growing a business, including funding, licensing/permitting, training and local resources",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Recent",
+      "publisher": "Office of the Texas Governor — Economic Development & Tourism",
+      "jurisdiction": "Texas businesses",
+      "url": "https://gov.texas.gov/apps/business/portal/",
+      "note": "Users should review the portal privacy/public-disclosure notice before submitting information."
+    },
+    {
+      "id": "rhcf",
+      "title": "Healthcare Connect Fund",
+      "value": "65% discount on eligible broadband connectivity expenses for eligible rural health care providers",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Recent",
+      "publisher": "Universal Service Administrative Company",
+      "jurisdiction": "Federal/rural health",
+      "url": "https://www.usac.org/rural-health-care/healthcare-connect-fund-program/",
+      "note": "Eligibility and competitive-bidding requirements apply. FY2027 request-for-services activity began July 1, 2026."
+    },
+    {
+      "id": "middle-mile",
+      "title": "Texas Middle Mile Program",
+      "value": "Up to $200M from the Broadband Infrastructure Fund for middle-mile construction/improvement, with resiliency, open-access and affordability objectives.",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Broadband Development Office",
+      "jurisdiction": "Texas",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/middle-mile/",
+      "note": "Applications closed Nov. 20, 2025. The current official page says applications are being evaluated and awardees are expected to be notified; verify award status before relying on a proposed project."
+    },
+    {
+      "id": "libraries",
+      "title": "Texas library broadband role",
+      "value": "TSLAC treats public-library broadband as infrastructure for workforce, education/training and health access and recommends the Toward Gigabit Libraries Toolkit",
+      "date": "2026-09-28",
+      "grade": "C",
+      "freshness": "Recent",
+      "publisher": "Texas State Library and Archives Commission",
+      "jurisdiction": "Texas libraries",
+      "url": "https://www.tsl.texas.gov/ldn/tech/topics/broadband",
+      "note": "Libraries can also use E-Rate and TSLAC digital-opportunity resources."
+    },
+    {
+      "id": "fcc-map",
+      "title": "FCC National Broadband Map and challenge process",
+      "value": "The FCC map shows provider-reported fixed/mobile availability and supports availability/location challenges; it does not by itself measure price, adoption, reliability or a household’s experienced performance.",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "FCC / Texas Broadband Development Office",
+      "jurisdiction": "United States/Texas",
+      "url": "https://comptroller.texas.gov/programs/broadband/outreach/maps/fcc/",
+      "note": "Use map vintage and challenge status. Keep provider-reported availability separate from speed tests and community observations."
+    },
+    {
+      "id": "erate-match",
+      "title": "2026 Texas State Match Fund for E-Rate",
+      "value": "Up to $5,000,000 in Texas state match funds for eligible school-system E-Rate special-construction projects.",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Education Agency",
+      "jurisdiction": "Texas",
+      "url": "https://tea.texas.gov/academics/learning-support-and-programs/technology-planning/2026-texas-state-match-fund-for-e-rate",
+      "note": "Eligibility depends on project type, E-Rate filing status, BDO service-availability data and statutory requirements. Funding windows close; verify current guidance."
+    },
+    {
+      "id": "erate",
+      "title": "Texas FY2026 E-Rate State Match and current FY2025 service/invoice dates",
+      "value": "Texas offered up to $5M in FY2026 state match funding. TEA lists Sept. 30, 2026 as the FY2025 non-recurring service delivery deadline and Oct. 28, 2026 as the FY2025 recurring-service invoice deadline.",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Education Agency",
+      "jurisdiction": "Texas/Federal",
+      "url": "https://tea.texas.gov/curriculum-and-instruction/learning-support-and-programs/technology-planning/e-rate/e-rate",
+      "note": "E-Rate rules and dates are funding-year-specific. Verify USAC/TEA before filing. This suite does not determine eligibility."
+    },
+    {
+      "id": "digital-opportunity",
+      "title": "Texas Digital Opportunity Plan and current funding context",
+      "value": "Texas Digital Opportunity Plan accepted March 28, 2024; BDO says the State Digital Equity Capacity Grant funding intended to support the roadmap was later terminated, and the office is seeking alternative avenues.",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Broadband Development Office",
+      "jurisdiction": "Texas",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/digital-opportunity/index.php",
+      "note": "The plan remains useful as a barrier/strategy framework. Do not assume a named digital-equity grant remains funded or open without current official confirmation."
+    },
+    {
+      "id": "boot",
+      "title": "BOOT I and BOOT II infrastructure awards",
+      "value": "BOOT I: $10.4M for 1,468 residences, 77 businesses and 15 community anchor institutions. BOOT II: $623.4M for 61,185 residences, 18,250 businesses and 2,191 community anchor institutions.",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Broadband Development Office",
+      "jurisdiction": "Texas",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/boot/",
+      "note": "BOOT I projects must be completed by Dec. 31, 2026. BDO publishes monthly awardee status files. BOOT II uses project-specific deadlines; verify each award separately."
+    },
+    {
+      "id": "bif",
+      "title": "Texas Broadband Infrastructure Fund",
+      "value": "Texas voters approved Proposition 8 in 2023; the fund began with a $1.5B investment and is described by BDO as active from 2024 through 2035.",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Broadband Development Office",
+      "jurisdiction": "Texas",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/",
+      "note": "The fund supports multiple purposes, including broadband infrastructure, 9-1-1 upgrades, pole replacement and BEAD matching. Program allocations and availability vary."
+    },
+    {
+      "id": "accessibility",
+      "title": "Texas public-sector digital accessibility",
+      "value": "Texas DIR identifies state/local government, public education, public hospitals/clinics, libraries, transit and other public entities as subject to digital-accessibility requirements",
+      "date": "2026-09-28",
+      "grade": "A",
+      "freshness": "Recent",
+      "publisher": "Texas Department of Information Resources",
+      "jurisdiction": "Texas public sector",
+      "url": "https://dir.texas.gov/digital-accessibility/accessibility-roles-and-responsibilities/requirements-exceptions-and",
+      "note": "The OS targets WCAG 2.2 AA as a design goal; regulated entities should consult current legal/agency requirements."
+    },
+    {
+      "id": "library-digital",
+      "title": "Texas libraries as digital-opportunity hubs",
+      "value": "TSLAC describes digital opportunity as combining affordable robust broadband, suitable devices, digital skills, technical support and usable online content/services.",
+      "date": "2026-09-17",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas State Library and Archives Commission",
+      "jurisdiction": "Texas",
+      "url": "https://www.tsl.texas.gov/ldn/tech/topics/digital-opportunity",
+      "note": "Libraries can be access/support hubs, but local staffing, privacy, accessibility, bandwidth and space constraints must be assessed rather than assumed."
+    },
+    {
+      "id": "pole",
+      "title": "Texas Broadband Pole Replacement Program — dashboard snapshot",
+      "value": "$51,026,029.31 total available amount including accrued interest; $28,297,960.61 reimbursed; 31 applications awarded as of Aug. 31, 2026.",
+      "date": "2026-08-31",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Broadband Development Office",
+      "jurisdiction": "Texas",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/pole-replacement/application-summary.php",
+      "note": "Dashboard values can change as reimbursements and interest change. The program reimburses eligible replacement costs subject to statutory/program rules."
+    },
+    {
+      "id": "teleconnectivity-2026",
+      "title": "2026 Pediatric Tele-Connectivity Resource Program for Rural Texas",
+      "value": "HHSC released a 2026 grant opportunity intended to connect rural hospitals/clinics with pediatric specialists or participating higher-education institutions through telemedicine.",
+      "date": "2026-06-03",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Health and Human Services Commission",
+      "jurisdiction": "Texas",
+      "url": "https://resources.hhs.texas.gov/rfa/hhs0017228",
+      "note": "The listed 2026 application deadline has passed. Preserve as a program/evidence example and verify any successor opportunity before action."
+    },
+    {
+      "id": "emergency",
+      "title": "Texas emergency-warning continuity emphasis",
+      "value": "TDEM's April 2026 statewide drill asked local alerting authorities to exercise primary, alternate and contingency warning systems",
+      "date": "2026-04-02",
+      "grade": "A",
+      "freshness": "Historical",
+      "publisher": "Texas Division of Emergency Management",
+      "jurisdiction": "Texas emergency management",
+      "url": "https://tdem.texas.gov/press-release/3-18-26-drill",
+      "note": "Useful planning precedent for resilient communications; this OS does not replace official alerting systems."
+    },
+    {
+      "id": "dir-telecom",
+      "title": "DIR TEX-AN and public-sector connectivity procurement",
+      "value": "DIR describes TEX-AN as competitively procured voice, data and internet connectivity services for eligible public-sector organizations",
+      "date": "2026-03-20",
+      "grade": "A",
+      "freshness": "Recent",
+      "publisher": "Texas Department of Information Resources",
+      "jurisdiction": "Texas public sector",
+      "url": "https://dir.texas.gov/news/understanding-dir-programs-tex-sts-and-coop",
+      "note": "Eligibility and contract terms must be checked with DIR."
+    },
+    {
+      "id": "bdo-lcra",
+      "title": "LCRA middle-mile/flood-monitoring broadband grant",
+      "value": "$29M state grant announced for LCRA to expand rural middle-mile connectivity and strengthen flood-monitoring infrastructure in Central Texas.",
+      "date": "2026-01-20",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Comptroller / Broadband Development Office",
+      "jurisdiction": "Texas",
+      "url": "https://comptroller.texas.gov/about/media-center/news/20260120-acting-texas-comptroller-kelly-hancock-announces-broadband-development-office-29-million-grant-to-lower-colorado-river-authority-1766177275951",
+      "note": "An award announcement is not the same as completed construction. Track engineering, construction, activation and public-service outcomes separately."
+    },
+    {
+      "id": "bead-summary",
+      "title": "Texas BEAD final proposal — approved program snapshot",
+      "value": "22 selected applicants; more than 240,000 broadband-serviceable locations; more than 2,700 community anchor institutions; $1.2B federal grant funding + $177M state match",
+      "date": "2025-12-04",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Broadband Development Office",
+      "jurisdiction": "Texas",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/bead/",
+      "note": "The official BDO page says the Final Proposal was approved Dec. 4, 2025. Treat approved awards, executed grant agreements, construction, activation and subscriber adoption as separate lifecycle states."
+    },
+    {
+      "id": "bead-tech",
+      "title": "Texas BEAD technology mix in NTIA overview",
+      "value": "242,903 eligible locations: 122,994 FTTP (50.6%); 65,901 LEO satellite (27.1%); 54,008 fixed wireless (22.3%)",
+      "date": "2025-11-18",
+      "grade": "A",
+      "freshness": "Historical",
+      "publisher": "NTIA BroadbandUSA",
+      "jurisdiction": "Federal/Texas",
+      "url": "https://broadbandusa.ntia.gov/sites/default/files/2026-01/BEAD_FP_Overview_TX.pdf",
+      "note": "NTIA overview says data were based on Final Proposal submissions and subject to curing/NIST review at publication."
+    },
+    {
+      "id": "rural-hospitals",
+      "title": "Texas Rural Hospital Broadband Infrastructure Program",
+      "value": "$23.885M allocated; the 2025 CPF performance report described 124 hospitals in 113 counties, including eight priority projects and 116 network-improvement grants.",
+      "date": "2025-09-01",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas Department of Agriculture / Texas BDO CPF report",
+      "jurisdiction": "Texas",
+      "url": "https://texasagriculture.gov/Grants-Services/Grant-and-Services/Texas-Rural-Hospital-Broadband-Infrastructure-Program",
+      "note": "The application period is closed. Treat infrastructure completion and clinical/telehealth outcomes separately; connectivity investment does not by itself establish health outcomes."
+    },
+    {
+      "id": "lifi",
+      "title": "Texas public-library LIFI broadband/facility grants",
+      "value": "$4,107,388 awarded to 37 public libraries for 2025–26 projects; eligible uses include broadband infrastructure and spaces supporting education, work and health monitoring.",
+      "date": "2025-08-07",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas State Library and Archives Commission",
+      "jurisdiction": "Texas",
+      "url": "https://www.tsl.texas.gov/node/70252",
+      "note": "TSLAC describes LIFI as broadband/facility infrastructure support. A separate broader CPF allocation supports the program; this figure is the 2025–26 award round."
+    },
+    {
+      "id": "library-erate",
+      "title": "Libraries Connecting Texas / E-Rate support snapshot",
+      "value": "TSLAC commission minutes reported support for 169 library systems, more than $1.35M in discount funding requests and an average discount of 83%.",
+      "date": "2025-08-01",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas State Library and Archives Commission",
+      "jurisdiction": "Texas/Federal",
+      "url": "https://www.tsl.texas.gov/agency/commission/meetings/20250801minutes",
+      "note": "This is a program administration snapshot, not a statewide measure of library bandwidth or need."
+    },
+    {
+      "id": "library-speed",
+      "title": "Texas public-library speed-test context",
+      "value": "TSLAC reported in its 2025 speed-test dashboard summary that about half of Texas public libraries met or exceeded the relevant FCC benchmark used in that analysis.",
+      "date": "2025-03-28",
+      "grade": "A",
+      "freshness": "Current",
+      "publisher": "Texas State Library and Archives Commission",
+      "jurisdiction": "Texas",
+      "url": "https://www.tsl.texas.gov/ld/librarydevelopments/2025/03/28/the-2025-speed-test-dashboard-is-here/",
+      "note": "This is a library-program dashboard interpretation, not a statewide household broadband estimate. Consult the dashboard/source methodology before comparison."
+    },
+    {
+      "id": "acs",
+      "title": "Census digital-access measurement tables",
+      "value": "ACS tables S2801/B28002/B28003 provide household computer and internet-subscription measures; latest source surfaced here is 2024 ACS",
+      "date": "2024-12-31",
+      "grade": "A",
+      "freshness": "Historical",
+      "publisher": "U.S. Census Bureau",
+      "jurisdiction": "United States/Texas geographies",
+      "url": "https://data.census.gov/table/ACSDT1Y2024.B28003",
+      "note": "Use Census geographies and margins of error when comparing counties/tracts; do not equate subscription with service quality."
+    }
+  ],
+  "programs": [
+    {
+      "name": "Texas BEAD",
+      "domain": "Infrastructure",
+      "status": "Approved final proposal / implementation tracking",
+      "who": "Awarded subgrantees, local governments, institutions and covered communities",
+      "action": "Use BDO award files/map. Track selected → agreement → engineering → construction → activation → adoption separately.",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/bead/"
+    },
+    {
+      "name": "BOOT I / II",
+      "domain": "Infrastructure",
+      "status": "Awarded / delivery",
+      "who": "Awarded providers and covered communities",
+      "action": "Use the monthly awardee status files; BOOT I projects must complete by Dec. 31, 2026.",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/boot/"
+    },
+    {
+      "name": "Texas Middle Mile",
+      "domain": "Infrastructure & resilience",
+      "status": "Application window closed; verify current award status",
+      "who": "Eligible middle-mile applicants and partner communities",
+      "action": "Check current BDO page for award decisions before treating proposed routes as funded.",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/middle-mile/"
+    },
+    {
+      "name": "Texas Broadband Pole Replacement",
+      "domain": "Deployment",
+      "status": "Prior rounds reimbursed; future NOFAs TBD",
+      "who": "Eligible pole owners and broadband service providers",
+      "action": "Use the live dashboard for fund/reimbursement status.",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/pole-replacement/"
+    },
+    {
+      "name": "Building the Texas Broadband Workforce",
+      "domain": "Workforce",
+      "status": "Awarded / training delivery",
+      "who": "Texas learners, employers and seven funded training organizations",
+      "action": "Route interested learners to current grantee enrollment information and verify local availability.",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/workforce/"
+    },
+    {
+      "name": "E-Rate / Texas State Match",
+      "domain": "Education",
+      "status": "Funding-year specific",
+      "who": "Eligible schools and libraries",
+      "action": "Use current TEA and USAC guidance, forms and deadlines.",
+      "url": "https://tea.texas.gov/curriculum-and-instruction/learning-support-and-programs/technology-planning/e-rate/e-rate"
+    },
+    {
+      "name": "Texas Rural Hospital Broadband Infrastructure",
+      "domain": "Health",
+      "status": "Awards in implementation / application closed",
+      "who": "Rural hospitals and served communities",
+      "action": "Use TDA/CPF reports for implementation evidence; do not infer clinical outcomes from network upgrades alone.",
+      "url": "https://texasagriculture.gov/Grants-Services/Grant-and-Services/Texas-Rural-Hospital-Broadband-Infrastructure-Program"
+    },
+    {
+      "name": "Library Infrastructure Facility Improvement (LIFI)",
+      "domain": "Libraries / community hubs",
+      "status": "Awarded rounds / verify current NOFO status",
+      "who": "Eligible Texas public libraries",
+      "action": "Verify current grant round; use facilities, bandwidth, accessibility and community-service needs together.",
+      "url": "https://www.tsl.texas.gov/ldn/grants/programs"
+    },
+    {
+      "name": "Technical Assistance Program",
+      "domain": "Local planning",
+      "status": "32-county cohort; plans complete/finalizing",
+      "who": "Participating county broadband planning committees",
+      "action": "Use published county plans as local planning evidence and update with current map/provider data.",
+      "url": "https://comptroller.texas.gov/programs/broadband/tap/"
+    },
+    {
+      "name": "Texas Digital Opportunity Plan / Hub",
+      "domain": "Adoption & skills",
+      "status": "Plan active as framework; original capacity-grant funding terminated",
+      "who": "Communities, libraries, nonprofits, planners and support organizations",
+      "action": "Use the barrier framework; verify separately funded implementation opportunities.",
+      "url": "https://comptroller.texas.gov/programs/broadband/funding/digital-opportunity/index.php"
+    },
+    {
+      "name": "Healthcare Connect Fund",
+      "domain": "Health",
+      "status": "Ongoing federal program",
+      "who": "Eligible rural health care providers / consortia",
+      "action": "Check RHC Connect for current eligibility, bidding and funding-year deadlines.",
+      "url": "https://www.usac.org/rural-health-care/healthcare-connect-fund-program/"
+    }
+  ],
+  "retrievedAt": "2026-09-28"
+}
